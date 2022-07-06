@@ -1,0 +1,75 @@
+<html>
+<head>
+    	<title>Exercise 3</title>
+</head>
+<body bgcolor="lightgrey">
+	<font face="Verdana">
+    		<h1>Exercise 3</h1>
+		<h2>Links between Left Branch and Middle Branch</h2>
+		go to <a href="#part1">1</a>
+
+<!-- Template taken from assignment 2 example -->
+		<pre>
+<b>From:</b>			<b>To:</b>				<b>Link:</b>
+
+leftpage.html		midpage1.html			../MidChild/midpage1.html
+
+leftpage.html		midpage2.html			../MidChild/midpage2.html
+
+leftgrandpage.html	midpage1.html			../../MidChild/midpage1.html
+
+leftgrandpage.html	midpage2.html			../../MidChild/midpage2.html
+
+leftgreatgrandpage.html	midpage1.html			../../../MidChild/midpage1.html
+
+leftgreatgrandpage.html	midpage2.html			../../../MidChild/midpage2.html
+
+leftpage.html		midleftpage.html		../MidChild/MidLeftChild/midleftpage.html
+
+leftpage.html		midrightpage.html		../MidChild/MidRightChild/midrightpage.html
+
+leftgrandpage.html	midleftpage.html		../../MidChild/MidLeftChild/midleftpage.html
+
+leftgrandpage.html	midrightpage.html		../../MidChild/MidRightChild/midrightpage.html
+
+leftgreatgrandpage.html	midleftpage.html		../../../MidChild/MidLeftChild/midleftpage.html
+
+leftgreatgrandpage.html	midrightpage.html		../../../MidChild/MidRightChild/midrightpage.html
+
+<hr color="black" width="900" size="5" align="left">
+
+midpage1.html		leftpage.html			../LeftChild/leftpage.html
+
+midpage2.html		leftpage.html			../LeftChild/leftpage.html
+
+midleftpage.html	leftpage.html			../../LeftChild/leftpage.html
+
+midrightpage.html	leftpage.html			../../LeftChild/leftpage.html
+
+midpage1.html		leftgrandpage.html		../LeftChild/LeftGrandChild/leftgrandpage.html
+
+midpage2.html		leftgrandpage.html		../LeftChild/LeftGrandChild/leftgrandpage.html
+
+midleftpage.html	leftgrandpage.html		../../LeftChild/LeftGrandChild/leftgrandpage.html
+
+midrightpage.html	leftgrandpage.html		../../LeftChild/LeftGrandChild/leftgrandpage.html
+
+midpage1.html		leftgreatgrandpage.html		../LeftChild/LeftGrandChild/LeftGreatGrandChild/leftgreatgrandpage.html
+
+midpage2.html		leftgreatgrandpage.html		../LeftChild/LeftGrandChild/LeftGreatGrandChild/leftgreatgrandpage.html
+
+midleftpage.html	leftgreatgrandpage.html		../../LeftChild/LeftGrandChild/LeftGreatGrandChild/leftgreatgrandpage.html
+
+midrightpage.html	leftgreatgrandpage.html		../../LeftChild/LeftGrandChild/LeftGreatGrandChild/leftgreatgrandpage.html
+
+<a name="part1">1</a>
+</pre>
+
+		<p align="right">
+			<a href="index-a2.html">Assignment 2</a>
+			<br>
+			<a href="../../index.html">Home</a>
+		<p>
+	</font>
+</body>
+</html>

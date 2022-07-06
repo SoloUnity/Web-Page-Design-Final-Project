@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Final Project</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<frameset rows="*, 600, *" frameborder="0">
+  <!-- Title portion of the page -->
+	<frameset rows="*, 11" frameborder="0">
+    <frame name="title" src="title.html" noresize="noresize"  scrolling="no">
+    <!-- Utilising a seperate page with an <hr> tag for the top table border -->
+    <frame name="topbar" src="topbar.html" noresize="noresize" scrolling="no">
+  </frameset>
+		<frameset cols="*, 600, *" frameborder="1" border="3" bordercolor="black">
+			<frame name="left" src="instructions.html" noresize="noresize">
+      <!-- Tic-tac-toe portion of the page -->
+			<frameset rows="*, 200, *" frameborder="1" border="3" bordercolor="black">
+          <frameset cols="*, 200, *" frameborder="1" border="3" bordercolor="black">
+              <frame name="1" src="squareplay.html" noresize="noresize" scrolling="no">
+              <frame name="2" src="squareplay.html" noresize="noresize" scrolling="no">
+              <frame name="3" src="squareplay.html" noresize="noresize" scrolling="no">
+          </frameset>
+          <frameset cols="*, 200, *" frameborder="1" border="3" bordercolor="black">
+            <frame name="4" src="squareplay.html" noresize="noresize" scrolling="no">
+            <frame name="5" src="squareplay.html" noresize="noresize" scrolling="no">
+            <frame name="6" src="squareplay.html" noresize="noresize" scrolling="no">
+          </frameset>
+          <frameset cols="*, 200, *" frameborder="1" border="3" bordercolor="black">
+            <frame name="7" src="squareplay.html" noresize="noresize" scrolling="no">
+            <frame name="8" src="squareplay.html" noresize="noresize" scrolling="no">
+            <frame name="9" src="squareplay.html" noresize="noresize" scrolling="no">
+          </frameset>
+      </frameset>
+			<frame name="right" src="blank.html" noresize="noresize">
+		</frameset>
+  <!-- Bottom portion of the page -->
+	<frameset rows="3, *" frameborder="0">
+    <!-- Utilising a frame and a black background for the bottom table border -->
+    <frameset cols="*, 604, *" frameborder="0">
+      <frame name="left1" src="blank.html" noresize="noresize">
+      <frame name="bottombar" src="bottombar.html" noresize="noresize">
+      <frame name="right1" src="blank.html" noresize="noresize">
+    </frameset>
+    <frame name="bottom" src="newgame.html" noresize="noresize" scrolling="no">
+  </frameset>
+</frameset>
+
+</html>
